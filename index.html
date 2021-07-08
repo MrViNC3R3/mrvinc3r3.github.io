@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-   
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -39,6 +38,7 @@
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="./Resume.pdf" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blogs</span></a></li>
 	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
 	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
@@ -58,7 +58,7 @@
 								  <span
 								     class="txt-rotate"
 								     data-period="2000"
-								     data-rotate='[ "Hacker" , "Bug Bounty Hunter", "Programmer" ]'></span>
+								     data-rotate='[ "Hacker" , "Bug Bounnty Hunter", "Programmer" ]'></span>
 								</h2>
 							</div>
             </div>
@@ -464,8 +464,9 @@
     </section>
  
 
+
     <section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container-fluid px-md-0">
+    	<div class="container-fluid px-md-5">
     		<div class="row no-gutters justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Projects</h1>
@@ -498,7 +499,35 @@
     	</div>
     </section>
 
-    
+    <section class="ftco-section" id="blog-section">
+      <div class="container-fluid px-md-5">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Blog</h1>
+            <h2 class="mb-4">Write-Ups</h2>
+            <p>My Recent Research Work</p>
+          </div>
+        </div>
+        <div class="row d-flex centerFlex">
+          <div class="col-md-0 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="response-manipulation-to-auth-bypass.html" class="block-20" style="background-image: url('images/default.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="response-manipulation-to-auth-bypass.html">Response Manipulation to Auth Bypass</a></h3>
+                <div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">July 08, 2021</span>
+	                	
+	                </p>
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          
+          
+    </section>
 
 
    
@@ -577,6 +606,7 @@
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
                 <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
                 <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                <li><a href="#blog-section"><span class="icon-long-arrow-right mr-2"></span>Blogs</a></li>
                 <li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
                 <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
               </ul>
@@ -621,23 +651,6 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-<script>
-  (function(){
-
-    window.ldfdr = window.ldfdr || {};
-    (function(d, s, ss, fs){
-      fs = d.getElementsByTagName(s)[0];
-
-      function ce(src){
-        var cs  = d.createElement(s);
-        cs.src = src;
-        setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1);
-      }
-
-      ce(ss);
-    })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_Xbp1oaEkMVy7EdVj.js');
-  })();
-</script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
