@@ -40,6 +40,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.centerFlex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -184,12 +189,6 @@ caption {
 
 th {
   text-align: inherit; }
-
-.centerFlex {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
 
 label {
   display: inline-block;
