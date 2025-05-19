@@ -40,7 +40,7 @@
       </button>
     </body>
   </foreignObject>
-  
+  <script>alert('XSS')</script>
   <!-- Forgot password link -->
   <text x="150" y="300" font-family="Arial" font-size="12" fill="#007BFF" text-anchor="middle" style="cursor:pointer;">
     Forgot password?
